@@ -49,9 +49,9 @@ This project explores time series forecasting techniques to predict **quarterly 
 | Naive Forecast | 20251.23 | 2.61% |
 | Seasonal Naive Forecast | 29619.99 | 5.48% |
 
-///
+
 <img width="443" alt="image" src="https://github.com/user-attachments/assets/42120f75-48fa-4a17-ad62-9f74e0f2f1fd" />
-///
+
 
 ## Key Findings
 - **ARIMA Model with Seasonality** provided the most **accurate forecast** with the lowest **RMSE and MAPE**.
