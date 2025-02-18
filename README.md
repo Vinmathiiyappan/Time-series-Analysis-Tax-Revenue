@@ -66,9 +66,7 @@ This project explores time series forecasting techniques to predict **quarterly 
 
 ## Contributors
 - **Vinmathi Iyappan**
-- **Pranjali Desai**
-- **Prabhjot Gilard**
-- **Garima Vijay**
+
 
 ## Contact
 📧 **Email:** [your-email@example.com](mailto:your-email@example.com)  
