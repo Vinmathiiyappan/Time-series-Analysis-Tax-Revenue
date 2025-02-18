@@ -4,7 +4,7 @@ library(forecast)
 library(zoo)
 #-------------------------------------------------------------------------------
 # Set working directory for locating files.
-setwd("/Users/vinmathi/Documents/Ban 673")
+
 
 # Create data frame.
 Tax.data <- read.csv("Financial Report.csv")
