@@ -69,7 +69,7 @@ This project explores time series forecasting techniques to predict **quarterly 
 
 
 ## Contact
-📧 **Email:** [your-email@example.com](mailto:your-email@example.com)  
-🔗 **LinkedIn:** [YourLinkedInProfile](https://linkedin.com/in/yourprofile)  
-🖥 **GitHub:** [YourGitHubProfile](https://github.com/yourprofile)
+📧 **Email:** [vinmathi.iyappan@gmail.com](mailto:vinmathi.iyappan@gmail.com)  
+🔗 **LinkedIn:** [Vinmathi-iyappan](https://linkedin.com/in//vinmathi-iyappan/)  
+🖥 **GitHub:** [Vinmathiiyappan](https://github.com/Vinmathiiyappan)
 
