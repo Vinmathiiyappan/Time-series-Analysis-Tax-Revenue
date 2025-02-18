@@ -23,7 +23,7 @@ This project explores time series forecasting techniques to predict **quarterly 
 
 ## Methodology
 ### Data Preprocessing
-- Removed incomplete records 
+- Removed incomplete records (1992-2008)
 - Used **quarterly** data from **2009-2023**
 - Partitioned dataset into **training (2009-2019) and validation (2020-2023)**
 
@@ -41,15 +41,20 @@ This project explores time series forecasting techniques to predict **quarterly 
 ## Results & Model Performance
 | Model | RMSE (Validation) | MAPE (Validation) |
 |--------|-----------------|-----------------|
-| ARIMA (1,1,1)(1,1,1) | **5179.97** | **1.22%** |
-| Auto-ARIMA | **5218.36** | **1.24%** |
-| Quadratic Regression | 15376.13 | 2.58% |
-| Quadratic + Seasonality | 15201.87 | 2.69% |
+| ARIMA Model with Seasonality | **6504.35** | **2.30%** |
+| Auto-ARIMA | **6316.58** | **2.41%** |
+| Quadratic Regression Model | 15376.13 | 2.58% |
+| Quadratic Model with Seasonality | 15201.87 | 2.69% |
 | Exponential Model | 18680.78 | 3.05% |
 | Naive Forecast | 20251.23 | 2.61% |
+| Seasonal Naive Forecast | 29619.99 | 5.48% |
+
+///
+<img width="443" alt="image" src="https://github.com/user-attachments/assets/42120f75-48fa-4a17-ad62-9f74e0f2f1fd" />
+///
 
 ## Key Findings
-- **ARIMA (1,1,1)(1,1,1)** provided the most **accurate forecast** with the lowest **RMSE and MAPE**.
+- **ARIMA Model with Seasonality** provided the most **accurate forecast** with the lowest **RMSE and MAPE**.
 - **Quadratic models** captured long-term trends but lacked adaptability to fluctuations.
 - **Exponential models** underperformed due to high variance.
 - **Auto-ARIMA** performed well but did not significantly outperform manually tuned ARIMA.
@@ -61,9 +66,12 @@ This project explores time series forecasting techniques to predict **quarterly 
 
 ## Contributors
 - **Vinmathi Iyappan**
+- **Pranjali Desai**
+- **Prabhjot Gilard**
+- **Garima Vijay**
 
 ## Contact
-📧 **Email:** [vinmathi.iyappan@gmail.com](mailto:vinmathi.iyappan@example.com)  
+📧 **Email:** [your-email@example.com](mailto:your-email@example.com)  
 🔗 **LinkedIn:** [YourLinkedInProfile](https://linkedin.com/in/yourprofile)  
 🖥 **GitHub:** [YourGitHubProfile](https://github.com/yourprofile)
 
